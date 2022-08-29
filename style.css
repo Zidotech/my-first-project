@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #001A29;
+}
+
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    padding: 1.5rem;
+}
+nav .links{
+    margin-left: -480px;
+}
+nav .icon i{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-right: .3em;
+}
+
+ .links ul li{
+display: inline-block;
+list-style: none;
+padding-right: .5em;
+}
+ 
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+
+.nav-content{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.nav-content .image{
+    width: 55%;
+}
+
+.nav-content .image img{
+    width: 90%;
+    margin-top: -170px;
+    margin-left: 40px;
+}
+
+.nav-content .content{
+    width: 40%;
+    color: white;
+    margin: 45px 0 0 45px;
+}
+
+.content h1{
+    font-size: 1.7rem ;
+    font-weight: 100;
+    padding-bottom: .5em;
+}
+
+.content h3{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: .8em;
+}
+
+.nav-content .content button{
+    width: 35%;
+    border-radius: 2rem;
+    padding: .2em;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+main .link {
+    text-align: center;
+    padding: 1.9em;
+}
+
+main .link ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+     padding-right: 1em;
+}
+
+main .link li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+   
+}
+
+.link a:hover{
+    background-color: #001A29;
+    color: white;
+    border-radius: 2rem;
+    padding: .5em;
+}
+
+
+
+main .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, .8fr));
+    gap:1.5rem;
+}
+main .box-container .box{
+    text-align: left;
+    border: none;
+    /* box-shadow: var(--box-shadow); */
+    border-radius: .5rem;
+    padding: 2.5rem;
+    width: 100%;
+    background-color: #B3D2E5;
+    height: 35vh;
+}
+main .box-container .box img{
+   width: 90%;
+}
